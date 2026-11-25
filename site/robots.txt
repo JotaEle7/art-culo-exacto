@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Disallow: /app/
-Sitemap: https://articulo-exacto.pages.dev/sitemap.xml
+Sitemap: https://art-culo-exacto.pages.dev/sitemap.xml
