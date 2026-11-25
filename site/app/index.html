@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Test aleatorio | Artículo Exacto</title>
+<meta name="description" content="Test aleatorio de oposiciones con repaso de fallos.">
+<link rel="canonical" href="https://articulo-exacto.pages.dev/app/">
+<meta property="og:title" content="Test aleatorio | Artículo Exacto">
+<meta property="og:description" content="Test aleatorio de oposiciones con repaso de fallos.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://articulo-exacto.pages.dev/app/">
+<meta name="theme-color" content="#1d4e89">
+<link rel="manifest" href="/manifest.webmanifest">
+
+<style>
+:root{--bg:#f7f8fa;--card:#fff;--ink:#14202e;--muted:#5b6876;--line:#dfe4ea;--brand:#1d4e89;--brand-soft:#e6eef8;--ok:#1f7a45;--ok-soft:#e4f4ea;--bad:#b3261e;--bad-soft:#fbe9e7;--font:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+@media (prefers-color-scheme:dark){:root{--bg:#0f151c;--card:#17202a;--ink:#e6ebf0;--muted:#9aa7b4;--line:#2a3542;--brand:#7fb0ea;--brand-soft:#1b2a3b;--ok:#6cc48f;--ok-soft:#163323;--bad:#f08b80;--bad-soft:#3a1b18;color-scheme:dark}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 var(--font)}
+a{color:var(--brand)}
+.wrap{max-width:760px;margin:0 auto;padding:0 16px}
+header.top{background:var(--card);border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:12px}
+.logo{font-weight:700;text-decoration:none;color:var(--ink);letter-spacing:-.01em}
+.logo span{color:var(--brand)}
+nav a{font-size:.9rem;margin-left:14px;text-decoration:none}
+main{padding-block:24px 48px}
+h1{font-size:1.6rem;line-height:1.2;margin:0 0 10px;text-wrap:balance}
+h2{font-size:1.2rem;margin:28px 0 10px}
+.lead{color:var(--muted);margin:0 0 18px}
+.crumbs{font-size:.85rem;color:var(--muted);margin-bottom:10px}
+.q{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;margin:0 0 14px}
+.q h3{font-size:1rem;margin:0 0 12px;font-weight:600}
+.q .n{color:var(--muted);font-weight:500;margin-right:4px}
+.opts{display:grid;gap:8px;margin:0;padding:0;list-style:none}
+.opt{width:100%;text-align:left;font:inherit;color:inherit;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px 12px;cursor:pointer}
+.opt:hover{border-color:var(--brand)}
+.opt:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
+.opt.ok{background:var(--ok-soft);border-color:var(--ok)}
+.opt.bad{background:var(--bad-soft);border-color:var(--bad)}
+.opt .l{font-weight:600;margin-right:6px}
+.exp{margin-top:12px;font-size:.92rem;border-left:3px solid var(--brand);padding:6px 0 6px 12px;background:transparent}
+.exp q{font-style:italic}
+.exp .src{display:block;margin-top:4px;color:var(--muted)}
+.btn{display:inline-block;background:var(--brand);color:#fff;border:0;border-radius:8px;padding:11px 16px;font:inherit;font-weight:600;text-decoration:none;cursor:pointer}
+@media (prefers-color-scheme:dark){.btn{color:#0f151c}}
+.btn.alt{background:transparent;color:var(--brand);border:1px solid var(--brand)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px;margin:0;padding:0;list-style:none}
+.grid a{display:block;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px;text-decoration:none;color:var(--ink);height:100%}
+.grid a strong{display:block;margin-bottom:4px}
+.grid a small{color:var(--muted)}
+.box{background:var(--brand-soft);border-radius:10px;padding:16px;margin:18px 0}
+.score{font-size:1.1rem;font-weight:700}
+footer{border-top:1px solid var(--line);color:var(--muted);font-size:.85rem}
+footer .wrap{padding-block:18px}
+.tag{display:inline-block;font-size:.75rem;border:1px solid var(--line);border-radius:99px;padding:1px 8px;color:var(--muted)}
+table{border-collapse:collapse;width:100%;font-size:.92rem}td,th{border-bottom:1px solid var(--line);padding:8px;text-align:left}
+</style>
+<meta name="robots" content="noindex">
+</head>
+<body>
+<header class="top"><div class="wrap"><a class="logo" href="/">Artículo <span>Exacto</span></a><nav><a href="/#temas">Temas</a><a href="/app/">Practicar</a></nav></div></header>
+<main><div class="wrap">
+<h1>Test aleatorio</h1>
+<p class="lead">Elige el bloque y el número de preguntas. Plan gratis: 20 preguntas al día. Tus resultados se guardan solo en este dispositivo.</p>
+<div id="setup" class="q">
+<label for="blk"><strong>Bloque</strong></label><br>
+<select id="blk" style="font:inherit;padding:8px;margin:6px 0 12px;width:100%"><option value="all">Todo el bloque I</option><option value="CE">Constitución Española</option><option value="L39">Ley 39/2015</option><option value="L40">Ley 40/2015</option><option value="fallos">Solo mis fallos</option></select><br>
+<label for="num"><strong>Preguntas</strong></label><br>
+<select id="num" style="font:inherit;padding:8px;margin:6px 0 12px;width:100%"><option>10</option><option selected>20</option></select><br>
+<button class="btn" id="go" type="button">Empezar</button>
+<p id="quota" class="lead" style="margin:12px 0 0"></p>
+</div>
+<div id="run" hidden></div>
+<div id="paywall" class="box" hidden><strong>Has hecho tus 20 preguntas gratis de hoy.</strong><br>Mañana tienes 20 más. Con el plan completo (4,99 €/mes, próximamente) los test son ilimitados. Mientras tanto, los test por tema siguen abiertos: <a href="/#temas">ver temas</a>.</div>
+</div></main>
+<footer><div class="wrap">
+<p>Artículo Exacto: test de oposiciones con cada respuesta citada del texto consolidado del BOE. Web no oficial, sin relación con el INAP ni con ningún organismo público.</p>
+<p><a href="/aviso-legal/">Aviso legal</a> · <a href="/privacidad/">Privacidad</a></p>
+</div></footer>
+<script>
+var Q=[],L='abcd',LIM=20;
+function st(k,d){try{return JSON.parse(localStorage.getItem(k))||d}catch(e){return d}}
+function sv(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
+function today(){return new Date().toISOString().slice(0,10)}
+function used(){var u=st('uso',{});return u.d===today()?u.n:0}
+function addUse(){var u={d:today(),n:used()+1};sv('uso',u)}
+function quota(){document.getElementById('quota').textContent='Te quedan '+Math.max(0,LIM-used())+' preguntas gratis hoy.'}
+function shuffle(a){for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t}return a}
+fetch('/preguntas.json').then(function(r){return r.json()}).then(function(d){Q=d;quota()});
+document.getElementById('go').onclick=function(){
+  var left=LIM-used(); if(left<=0){document.getElementById('paywall').hidden=false;return}
+  var b=document.getElementById('blk').value, n=Math.min(+document.getElementById('num').value,left);
+  var f=st('fallos',[]), pool=Q.filter(function(q){return b==='all'||(b==='fallos'?f.indexOf(q.id)>-1:q.law===b)});
+  if(!pool.length){document.getElementById('quota').textContent='Aún no tienes fallos guardados.';return}
+  var set=shuffle(pool.slice()).slice(0,n), run=document.getElementById('run'), ok=0, done=0;
+  document.getElementById('setup').hidden=true; run.hidden=false; run.innerHTML='<p class="score" id="sc">0 de '+set.length+'</p>';
+  set.forEach(function(q,idx){
+    var ord=shuffle([0,1,2,3]), card=document.createElement('article'); card.className='q';
+    var h='<h3><span class="n">'+(idx+1)+'.</span></h3><ul class="opts"></ul><div class="exp" hidden></div>';
+    card.innerHTML=h; card.querySelector('h3').appendChild(document.createTextNode(q.q));
+    var ul=card.querySelector('ul');
+    ord.forEach(function(k,i){var li=document.createElement('li'),bt=document.createElement('button');bt.type='button';bt.className='opt';bt.innerHTML='<span class="l">'+L[i]+')</span>';bt.appendChild(document.createTextNode(q.o[k]));li.appendChild(bt);ul.appendChild(li);
+      bt.onclick=function(){ if(card.dataset.d)return; card.dataset.d=1; addUse(); done++;
+        var good=ord.indexOf(q.c); ul.children[good].firstChild.classList.add('ok');
+        var fl=st('fallos',[]);
+        if(k===q.c){ok++; fl=fl.filter(function(x){return x!==q.id})} else {bt.classList.add('bad'); if(fl.indexOf(q.id)<0)fl.push(q.id)}
+        sv('fallos',fl);
+        var e=card.querySelector('.exp'); e.hidden=false; e.innerHTML='<strong></strong><span class="src"></span>';
+        e.firstChild.textContent='Correcta: '+L[good]+') '+q.o[q.c];
+        e.lastChild.textContent=q.a+': «'+q.t+'» ';
+        var a=document.createElement('a');a.href=q.u;a.target='_blank';a.rel='noopener nofollow';a.textContent='ver en el BOE';e.lastChild.appendChild(a);
+        document.getElementById('sc').textContent=ok+' aciertos de '+done+' (de '+set.length+')';
+        if(done===set.length){var p=document.createElement('p');p.innerHTML='<button class="btn" type="button" onclick="location.reload()">Otro test</button>';run.appendChild(p)}
+      }});
+    run.appendChild(card);
+  });
+};
+</script>
+</body></html>
