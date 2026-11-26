@@ -1,0 +1,30 @@
+# Artículo Exacto
+
+> Test gratuitos de oposiciones a Auxiliar Administrativo del Estado (bloque I). Cada pregunta cita el texto literal del artículo de la Constitución Española, la Ley 39/2015 o la Ley 40/2015, con enlace al BOE consolidado.
+
+## Test por tema
+
+- [Título Preliminar de la Constitución](https://articulo-exacto.pages.dev/test/titulo-preliminar/): artículos 1 a 9: valores superiores, soberanía, lenguas, bandera, partidos y Fuerzas Armadas
+- [Derechos fundamentales (arts. 10 a 29 CE)](https://articulo-exacto.pages.dev/test/derechos-fundamentales/): igualdad, vida, libertad, detención de 72 horas, habeas corpus, reunión, asociación y tutela judicial
+- [Deberes y principios rectores (arts. 30 a 55 CE)](https://articulo-exacto.pages.dev/test/derechos-deberes-principios/): sistema tributario, propiedad, principios de política social y económica, amparo y Defensor del Pueblo
+- [La Corona (Título II CE)](https://articulo-exacto.pages.dev/test/corona/): funciones del Rey, sucesión, Regencia, refrendo y Casa del Rey
+- [Las Cortes Generales (Título III CE)](https://articulo-exacto.pages.dev/test/cortes-generales/): Congreso y Senado, Diputados y Senadores, leyes orgánicas, decretos-leyes e iniciativa legislativa
+- [Gobierno y relaciones con las Cortes (Títulos IV y V CE)](https://articulo-exacto.pages.dev/test/gobierno/): investidura, moción de censura, cuestión de confianza, estados de alarma, excepción y sitio
+- [Poder Judicial y Hacienda (Títulos VI y VII CE)](https://articulo-exacto.pages.dev/test/poder-judicial/): jueces, CGPJ, Tribunal Supremo, Ministerio Fiscal, Jurado, Presupuestos y Tribunal de Cuentas
+- [Organización territorial del Estado (Título VIII CE)](https://articulo-exacto.pages.dev/test/organizacion-territorial/): municipios, provincias, Comunidades Autónomas, Estatutos, competencias y artículo 155
+- [Tribunal Constitucional y reforma (Títulos IX y X CE)](https://articulo-exacto.pages.dev/test/tribunal-constitucional/): composición, recursos de inconstitucionalidad y amparo, y procedimientos de reforma
+- [Interesados y derechos (Ley 39/2015)](https://articulo-exacto.pages.dev/test/interesados-ley-39/): capacidad de obrar, interesado, representación, relación electrónica, lengua y registros
+- [Plazos y silencio administrativo (Ley 39/2015)](https://articulo-exacto.pages.dev/test/plazos-y-silencio/): obligación de resolver, plazo de 3 y 6 meses, silencio, cómputo de plazos, ampliación y urgencia
+- [Actos administrativos y notificaciones (Ley 39/2015)](https://articulo-exacto.pages.dev/test/actos-administrativos/): motivación, forma, eficacia, notificación en papel y electrónica, publicación
+- [Nulidad y anulabilidad (arts. 47 a 52 Ley 39/2015)](https://articulo-exacto.pages.dev/test/nulidad-y-anulabilidad/): causas de nulidad de pleno derecho, anulabilidad, conversión, conservación y convalidación
+- [Fases del procedimiento (Ley 39/2015)](https://articulo-exacto.pages.dev/test/procedimiento-administrativo/): iniciación, subsanación, prueba, informes, audiencia, información pública y terminación
+- [Revisión de oficio y recursos (Ley 39/2015)](https://articulo-exacto.pages.dev/test/recursos-administrativos/): lesividad, recurso de alzada, reposición y extraordinario de revisión con sus plazos
+- [Principios y competencia (Ley 40/2015)](https://articulo-exacto.pages.dev/test/competencia-ley-40/): principios de actuación, órganos, delegación, avocación, encomienda, delegación de firma y suplencia
+- [Órganos colegiados, abstención y recusación (Ley 40/2015)](https://articulo-exacto.pages.dev/test/organos-colegiados-abstencion/): Secretario, actas, sesiones a distancia, motivos de abstención y plazos de la recusación
+- [Potestad sancionadora (Ley 40/2015)](https://articulo-exacto.pages.dev/test/potestad-sancionadora/): legalidad, irretroactividad, tipicidad, culpabilidad, proporcionalidad, prescripción y non bis in idem
+- [Responsabilidad patrimonial (Ley 40/2015)](https://articulo-exacto.pages.dev/test/responsabilidad-patrimonial/): requisitos del daño, fuerza mayor, responsabilidad solidaria, acción de regreso y plazo de un año
+- [Simulacro de examen: 30 preguntas mezcladas](https://articulo-exacto.pages.dev/test/simulacro-examen/): 30 preguntas de todo el bloque I, como en el examen real
+
+## Datos
+
+- [Todas las preguntas en JSON](https://articulo-exacto.pages.dev/preguntas.json): pregunta, opciones, respuesta correcta, artículo y cita literal.
